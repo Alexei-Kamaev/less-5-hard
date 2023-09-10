@@ -9,6 +9,6 @@ function calculateOns(a, b) {
      } else console.log(`Общий наибольший делитель ${b}`);
 }
 const oneNumber = +prompt('Первое число:');
-const twoNumber = +prompt('Второе число');
+const twoNumber = +prompt('Второе число:');
 Number.isNaN(oneNumber) || Number.isNaN(twoNumber) ? console.log ('Повторите ввод данных. Ошибка') : calculateOns(Math.max(oneNumber, twoNumber), Math.min(oneNumber, twoNumber));
 }
